@@ -11,6 +11,7 @@ function ItemList() {
   const [todos, setTodos] = useState([]);
 
   function addTodo(todo) {
+    if (!todo.length) return;
     const { length: id } = todos;
     const newTodo = { id, todo, isComplete: false };
     setTodos((prev) => [...prev, newTodo]);
