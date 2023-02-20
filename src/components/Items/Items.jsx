@@ -5,14 +5,14 @@ import Item from '../Item/Item';
 
 function Items({ items }) {
   return (
-    items.map(({ isComplete, todo }, i) => (
-      <Item key={i} isComplete={isComplete} todo={todo} />
+    items.map(({ id, isComplete, todo }) => (
+      <Item key={id} isComplete={isComplete} todo={todo} />
     ))
   );
 }
 
 Items.propTypes = {
-  items: PropTypes.arrayOf.isRequired,
+  items: PropTypes.instanceOf(Array),
 };
 
 export default Items;

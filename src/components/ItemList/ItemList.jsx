@@ -12,7 +12,7 @@ function ItemList() {
 
   function addTodo(todo) {
     const { length: id } = todos;
-    const newTodo = { id, todo, isComplet: false };
+    const newTodo = { id, todo, isComplete: false };
     setTodos((prev) => [...prev, newTodo]);
     setValue('');
   }
