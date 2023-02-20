@@ -17,8 +17,6 @@ function ItemList() {
     setValue('');
   }
 
-  console.log(todos);
-
   return (
     <div className={styles.container}>
       <ItemListHeader />
