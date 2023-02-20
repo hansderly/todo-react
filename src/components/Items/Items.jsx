@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Item from '../Item/intem';
+import Item from '../Item/Item';
 
 function Items({ items }) {
   return (
