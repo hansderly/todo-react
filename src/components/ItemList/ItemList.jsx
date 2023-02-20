@@ -17,10 +17,15 @@ function ItemList() {
     setValue('');
   }
 
-  const handleDelete = (id) => setTodos((prev) => prev.filter((todo) => todo.id !== id));
+  const handleDelete = (id) => setTodos((prev) => prev.filter(({ id: todoId }) => todoId !== id));
 
   const handleChange = (id) => {
-    console.log(id);
+    setTodos(
+      todos.map((todo) => {
+        if (todo.id === id) return { ...todo, isComplete: !todo.isComplete };
+        return todo;
+      }),
+    );
   };
 
   return (
