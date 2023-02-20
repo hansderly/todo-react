@@ -10,7 +10,7 @@
         -   [Tech Stack ](#tech-stack-)
         -   [Key Features ](#key-features-)
     -   [🚀 Live Demo ](#-live-demo-)
-    -   [💻 ](#-)
+    -   [💻 Live Presentation](#-live-presentation)
     -   [💻 Getting Started ](#-getting-started-)
         -   [Prerequisites](#prerequisites)
         -   [Setup](#setup)
@@ -73,7 +73,7 @@
 
 <!-- LIVE DEMO -->
 
-## 💻 <a name="vgs-presentation"></a>
+## 💻 Live Presentation<a name="vgs-presentation"></a>
 
 > Here you can see my presentation :
 
@@ -103,7 +103,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:hansderly/math-magicians.git
+  git clone git@github.com:hansderly/todo-react.git
 ```
 
 -
@@ -171,8 +171,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--   **Make more complex calculations**
--   **Add user account**
+-   **Use Context**
+-   **Redux**
+-   **Local Storage**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
