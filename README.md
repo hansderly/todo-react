@@ -2,6 +2,12 @@
 
 <!-- TABLE OF CONTENTS -->
 
+## Screenshot
+
+<div align="center">
+<img src="./src/assets/screenshot.png" alt="screenshot">
+</div>
+
 # 📗 Table of Contents
 
 -   [📗 Table of Contents](#-table-of-contents)
