@@ -17,11 +17,19 @@ function ItemList() {
     setValue('');
   }
 
+  const handleDelete = (id) => {
+    console.log(id);
+  };
+
+  const handleChange = (id) => {
+    console.log(id);
+  };
+
   return (
     <div className={styles.container}>
       <ItemListHeader />
       <ItemInput value={value} onChange={(e) => setValue(e.target.value)} onKeyDown={(e) => (e.key === 'Enter' ? addTodo(value) : null)} />
-      <Items items={todos} />
+      <Items items={todos} handleChange={handleChange} handleDelete={handleDelete} />
     </div>
   );
 }
