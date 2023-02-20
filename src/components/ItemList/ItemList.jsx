@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 import styles from './ItemList.module.css';
 
-import Item from '../Item/intem';
 import ItemListHeader from '../ItemListHeader/ItemListHeader';
 import ItemInput from '../ItemInput/ItemInput';
+import Items from '../Items/Items';
 
 function ItemList() {
   const [value, setValue] = useState('');
@@ -21,7 +21,7 @@ function ItemList() {
     <div className={styles.container}>
       <ItemListHeader />
       <ItemInput value={value} onChange={(e) => setValue(e.target.value)} onKeyDown={(e) => (e.key === 'Enter' ? addTodo(value) : null)} />
-      <Item />
+      <Items items={todos} />
     </div>
   );
 }
