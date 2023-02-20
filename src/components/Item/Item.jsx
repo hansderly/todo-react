@@ -19,7 +19,7 @@ function Item({
     <div className={styles.container}>
       <div>
         <input type="checkbox" name="complete" id="complete" checked={isComplete} onChange={onChange} />
-        <p>{todo}</p>
+        <p className={isComplete && styles.line}>{todo}</p>
       </div>
       <DeleteOutlined className={styles.icon} onClick={onClick} />
     </div>
