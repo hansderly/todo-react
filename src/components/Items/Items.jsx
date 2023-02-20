@@ -5,8 +5,8 @@ import Item from '../Item/intem';
 
 function Items({ items }) {
   return (
-    items.map((todo) => (
-      <Item />
+    items.map(({ isComplete, todo }, i) => (
+      <Item key={i} isComplete={isComplete} todo={todo} />
     ))
   );
 }
