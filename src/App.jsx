@@ -1,7 +1,10 @@
+import React from 'react';
+import { ItemList } from './components';
+
 function App() {
   return (
     <div>
-      <p>App</p>
+      <ItemList />
     </div>
   );
 }
