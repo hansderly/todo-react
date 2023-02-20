@@ -1,6 +1,9 @@
 .container {
   position: relative;
   margin-top: 25px;
+  box-shadow: -5px -6px 61px -20px rgba(0, 0, 0, 0.67);
+  -webkit-box-shadow: -5px -6px 61px -20px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: -5px -6px 61px -20px rgba(0, 0, 0, 0.67);
 }
 
 .input {
