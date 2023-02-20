@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+  margin-top: 25px;
+}
+
+.input {
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+  border: 0;
+}
+
+.input:focus {
+  outline: 2px solid blueviolet;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
