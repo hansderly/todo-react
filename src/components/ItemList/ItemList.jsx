@@ -8,10 +8,16 @@ import ItemInput from '../ItemInput/ItemInput';
 
 function ItemList() {
   const [value, setValue] = useState('');
+  const [todos, setTodos] = useState([]);
 
   function addTodo(todo) {
+    const { length: id } = todos;
+    const newTodo = { id, todo, isComplet: false };
+    setTodos((prev) => [...prev, newTodo]);
     setValue('');
   }
+
+  console.log(todos);
 
   return (
     <div className={styles.container}>
