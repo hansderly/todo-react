@@ -14,3 +14,7 @@
 .container > div > p {
   margin-left: 15px;
 }
+
+.icon {
+  cursor: pointer;
+}

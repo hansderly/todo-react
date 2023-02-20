@@ -10,7 +10,7 @@ function Item() {
         <input type="checkbox" name="complete" id="complete" />
         <p>Todo name</p>
       </div>
-      <DeleteOutlined />
+      <DeleteOutlined className={styles.icon} />
     </div>
   );
 }
