@@ -17,9 +17,7 @@ function ItemList() {
     setValue('');
   }
 
-  const handleDelete = (id) => {
-    console.log(id);
-  };
+  const handleDelete = (id) => setTodos((prev) => prev.filter((todo) => todo.id !== id));
 
   const handleChange = (id) => {
     console.log(id);
