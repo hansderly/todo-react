@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+  margin-top: 25px;
+  box-shadow: -5px -6px 61px -20px rgba(0, 0, 0, 0.67);
+  -webkit-box-shadow: -5px -6px 61px -20px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: -5px -6px 61px -20px rgba(0, 0, 0, 0.67);
+}
+
+.input {
+  padding: 25px;
+  border-radius: 5px;
+  width: 100%;
+  border: 0;
+}
+
+.input:focus {
+  outline: 2px solid blueviolet;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}

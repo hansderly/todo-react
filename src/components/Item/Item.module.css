@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  padding: 25px;
+  margin: 5px 0;
+  width: 100%;
+  justify-content: space-between;
+  background-color: aliceblue;
+}
+
+.container > div {
+  display: flex;
+}
+
+.container > div > p {
+  margin-left: 15px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.line {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
